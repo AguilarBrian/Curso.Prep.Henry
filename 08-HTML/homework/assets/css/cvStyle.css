@@ -1,0 +1,77 @@
+.titleClass {
+    color: #ffffff;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #00fdcb;
+}
+header {
+    background: linear-gradient(270deg, rgba(0,253,203,1) 0%, rgba(13,172,254,1) 100%);
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+#profilePic {
+    width: 250px;
+    height: 250px;
+}
+body {
+    background: radial-gradient(circle, rgba(232,61,255,1) 0%, rgba(134,74,255,1) 100%);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+.topNBottomClass {
+    display: flex;
+    justify-content: center;
+}
+#centerId {
+    width: 830px;
+    height: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+#bodyClass {
+    background-color: #000000;
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    padding-top: 50px;
+    padding-right: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1060px;
+    height: 50px;
+}
+#footerId {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerTxtClass {
+    position: relative;
+    bottom: 8px;
+}
+img {
+    width: 30px;
+    height: 30px;
+}
